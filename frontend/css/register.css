@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 680px;
+
+    background: #6d91b9;
+    /* box-shadow: 0 0 2em #e6e9f9; */
+    padding-top: 50px;
+}
+#container{
+    background-color: #4c559a;
+}
+.login{
+    box-shadow: 0 0 2em #a0a9dc;
+    margin: auto;
+    /* margin-top: 30px; */
+    width: 30%;
+    height: 93%;
+    background: #c7ccf2ca;
+
+    border-radius: 20px;
+}
+#login{
+    height: 80%;
+}
+.img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* background-color: gold; */
+}
+.img img{
+    margin-top: 30px;
+    height: 100px;
+}
+.inputs{
+    width: 85%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.797);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+label{
+    height: 40px;
+    width: 500px;
+    font-size: 20px;
+    font-family:"Poppins";
+    padding-top: 20px;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+    margin: 10px;
+}
+.icon{
+    width: 98%;
+    /* background-color: blueviolet; */
+    /* border-radius: 15px; */
+    padding-left: 10px;
+}
+*:focus {
+    outline: none;
+}
+input{
+    padding-left: 15px;
+    /* margin: 10px; */
+    height: 50px;
+    width: 85.5%;
+    border: 0px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.button{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    margin-top: 40px;
+    
+}
+button{
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
+    background-color:#3e4684;
+    border: 1px solid grey;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color: #27317c;
+}
+.log{
+    width: 85%;
+    height: 40px;
+    margin: auto;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    text-align: end;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #3e4684;
+    font-size: 20px;
+}
