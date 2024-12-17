@@ -18,7 +18,7 @@ body{
     margin: auto;
     /* margin-top: 30px; */
     width: 30%;
-    height: 93%;
+    height: 96%;
     background: #c7ccf2ca;
 
     border-radius: 20px;
@@ -31,16 +31,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     /* background-color: gold; */
 }
 .img img{
     margin-top: 30px;
-    height: 100px;
+    height: 70px;
 }
 .inputs{
     width: 85%;
-    height: 60px;
+    height: 50px;
     background-color: rgba(255, 255, 255, 0.797);
     border-radius: 20px;
     margin: auto;
@@ -74,6 +74,11 @@ input{
     border: 0px;
     border-radius: 20px;
     background-color: transparent;
+    margin-top: -10px;
+}
+#email{
+    background-color: transparent;
+    margin-top: -10px;
 }
 .button{
     width: 90%;
@@ -104,8 +109,13 @@ button:hover{
     margin-top: 20px;
     text-align: end;
     padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
 }
 a{
+    margin-left: 10px;
     text-decoration: none;
     color: #3e4684;
     font-size: 20px;

@@ -12,21 +12,22 @@
 <body>
     <div class="container">
         <div class="login" id="login">
+            <form class="registration-form" id="form">
             <div class="img">
                 <img src="../asset/image.png" alt="">
             </div>
             <div class="inputs">
-                <label for="" class="lab">username</label>
+                <label for="" class="lab" >username</label>
                 <div class="icon">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="text">
+                    <input type="text" id="user">
                 </div>
             </div>
             <div class="inputs">
                 <label for="">password</label>
                 <div class="icon">
                     <ion-icon name="lock-closed-outline"></ion-icon>
-                    <input type="password">
+                    <input type="password" id="pass">
                 </div>
             </div>
             <!-- <div class="inputs">
@@ -37,13 +38,14 @@
                 </div>
             </div> -->
             <div class="button">
-                <button onclick="login()">login</button>
+                <button>login</button>
             </div>
             <div class="log">
-                <a href="../pages/register.html">register</a>
+                don't you have a account?   <a href="../pages/register.html">register</a>
             </div>
+            </form>
         </div>
     </div>
-    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
 </body>
 </html>
