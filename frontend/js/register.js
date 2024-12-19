@@ -1,5 +1,5 @@
 
-let API="http://localhost:3000";
+let API="http://13.60.198.66";
 
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("form");
