@@ -121,12 +121,15 @@ img{
     border-radius: 100%;
     margin-left: 15px;
     height: 60%;
-    background-color: blanchedalmond;
+    background-color: rgb(206, 125, 2);
+    width: 50px;
 }
 .person-img img{
     border-radius: 100%;
+    object-fit: cover;
     height: 100%;
-    background-color: blanchedalmond;
+    width: 100%;
+    background-color: rgb(192, 120, 12);
 }
 .nav-div hr{
     height: 25px;

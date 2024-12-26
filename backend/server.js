@@ -8,7 +8,7 @@ env.config()
 
 const app=express();
 app.use(express.static("../frontend"))
-app.use(express.json())
+app.use(express.json({limit:"100mb"}))
 app.use("/api",router)
 connection().then(()=>{
     app.listen(process.env.PORT,()=>{

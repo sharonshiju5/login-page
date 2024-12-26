@@ -6,7 +6,7 @@ export default async function Auth(req,res,next) {
         const key=req.headers.authorization
         // console.log(key);
         if(!key)
-            return res.status(400).send({msg:"unautharized access"})
+            return res.status(403).send({msg:"unautharized access"})
         const token=key.split(" ")[1]
         // console.log(token);
         const auth=await verify(token,process.env.JWT_key)
